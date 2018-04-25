@@ -97,6 +97,7 @@
             this.btn_done.TabIndex = 7;
             this.btn_done.Text = "Done";
             this.btn_done.UseVisualStyleBackColor = true;
+            this.btn_done.Click += new System.EventHandler(this.btn_done_Click);
             // 
             // form_setDrive
             // 

@@ -32,5 +32,13 @@ namespace StorageManager
             txt_sectorsinClister.Enabled = false;
             txt_blockingFactor.Enabled = true;
         }
+
+        private void btn_done_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            form_fileStructure f = new form_fileStructure();
+            f.Show();
+            Program.maindrive
+        }
     }
 }
