@@ -21,7 +21,7 @@ namespace StorageManager
         {
             btn_clustesr.Enabled = false;
             btn_blocks.Enabled = true;
-            txt_sectorsinClister.Enabled = true;
+            txt_sectorsinCluster.Enabled = true;
             txt_blockingFactor.Enabled = false;
         }
 
@@ -29,16 +29,17 @@ namespace StorageManager
         {
             btn_clustesr.Enabled = true;
             btn_blocks.Enabled = false;
-            txt_sectorsinClister.Enabled = false;
+            txt_sectorsinCluster.Enabled = false;
             txt_blockingFactor.Enabled = true;
         }
 
         private void btn_done_Click(object sender, EventArgs e)
         {
+            
+            
+            form_fileStructure setDrive = new form_fileStructure();
+            setDrive.Show();
             this.Hide();
-            form_fileStructure f = new form_fileStructure();
-            f.Show();
-            Program.maindrive
         }
     }
 }

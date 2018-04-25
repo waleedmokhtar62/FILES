@@ -32,9 +32,11 @@
             this.cmb_recordStructure = new System.Windows.Forms.ComboBox();
             this.btn_done = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_numberOfFields = new System.Windows.Forms.TextBox();
+            this.dgv_fieldSize = new System.Windows.Forms.DataGridView();
+            this.FieldSize = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_fieldSize)).BeginInit();
             this.SuspendLayout();
             // 
             // cmb_fieldStructure
@@ -80,42 +82,51 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "Record Size";
             // 
-            // textBox2
+            // txt_numberOfFields
             // 
-            this.textBox2.Location = new System.Drawing.Point(172, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txt_numberOfFields.Location = new System.Drawing.Point(172, 65);
+            this.txt_numberOfFields.Name = "txt_numberOfFields";
+            this.txt_numberOfFields.Size = new System.Drawing.Size(100, 20);
+            this.txt_numberOfFields.TabIndex = 4;
+            this.txt_numberOfFields.Text = "Number of Fields";
             // 
-            // textBox3
+            // dgv_fieldSize
             // 
-            this.textBox3.Location = new System.Drawing.Point(13, 65);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 5;
+            this.dgv_fieldSize.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_fieldSize.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.FieldSize,
+            this.Column1});
+            this.dgv_fieldSize.Location = new System.Drawing.Point(12, 65);
+            this.dgv_fieldSize.Name = "dgv_fieldSize";
+            this.dgv_fieldSize.Size = new System.Drawing.Size(120, 150);
+            this.dgv_fieldSize.TabIndex = 7;
             // 
-            // textBox4
+            // FieldSize
             // 
-            this.textBox4.Location = new System.Drawing.Point(12, 115);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 6;
+            this.FieldSize.HeaderText = "Field Size";
+            this.FieldSize.Name = "FieldSize";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
             // 
             // form_fileStructure
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dgv_fieldSize);
+            this.Controls.Add(this.txt_numberOfFields);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_done);
             this.Controls.Add(this.cmb_recordStructure);
             this.Controls.Add(this.cmb_fieldStructure);
             this.Name = "form_fileStructure";
             this.Text = "File Structure";
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_fieldSize)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,8 +138,9 @@
         private System.Windows.Forms.ComboBox cmb_recordStructure;
         private System.Windows.Forms.Button btn_done;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txt_numberOfFields;
+        private System.Windows.Forms.DataGridView dgv_fieldSize;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FieldSize;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }

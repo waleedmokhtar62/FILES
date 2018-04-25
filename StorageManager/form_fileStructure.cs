@@ -19,7 +19,12 @@ namespace StorageManager
 
         private void cmb_fieldStructure_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (cmb_fieldStructure.SelectedText == "Fixed length")
+            {
+                dgv_fieldSize.Visible = true;
+                dgv_fieldSize.Height = int.Parse(txt_numberOfFields.Text);
+            }
         }
+
     }
 }

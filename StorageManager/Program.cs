@@ -8,33 +8,32 @@ namespace StorageManager
 {
     public class Drive
     {
-        List<Track> Tracks;
-        Drive()
+        public List<Track> Tracks;
+        public Drive()
         {
             Tracks = new List<Track>();
-            Tracks
         }
     }
     public class Sector
     {
-        int Size;
-        List<Record> Records;
-        Sector()
+        public static int Size;
+        public List<Record> Records;
+        public Sector()
         {
             Records = new List<Record>();
         }
     }
     public class Track
     {
-        List<Block> Blocks;
-        List<Cluster> Clusters;
-        int Size;
-        Track()
+        public List<Block> Blocks;
+        public List<Cluster> Clusters;
+        public static int Size;
+        public Track()
         {
             Blocks = new List<Block>();
             Clusters = new List<Cluster>();
         }
-        Track(string organizaion)
+        public Track(string organizaion)
         {
             if (organizaion == "Cluster")
             {
@@ -48,19 +47,28 @@ namespace StorageManager
     }
     public class Block
     {
-        int BlockingFactor;
-        List<Record> Records;
-        int CountSubblock;
-        int KeySubblock;
+        public static int BlockingFactor;
+        public List<Record> Records;
+        public int CountSubblock;
+        public int KeySubblock;
     }
     public class Cluster
     {
-        List<Sector> Sectors;
+        public static int NumOfSectors;
+        public List<Sector> Sectors;
+        public Cluster()
+        {
+            Sectors = new List<Sector>();
+        }
     }
     public class Record
     {
-        int Size;
-        List<string> Fields;
+        public static int Size;
+        public List<string> Fields;
+        public Record()
+        {
+            Fields = new List<string>();
+        }
     }
 
 

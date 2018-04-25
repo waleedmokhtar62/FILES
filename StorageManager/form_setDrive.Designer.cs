@@ -33,7 +33,7 @@
             this.txt_sectorSize = new System.Windows.Forms.TextBox();
             this.txt_blockingFactor = new System.Windows.Forms.TextBox();
             this.txt_trackSize = new System.Windows.Forms.TextBox();
-            this.txt_sectorsinClister = new System.Windows.Forms.TextBox();
+            this.txt_sectorsinCluster = new System.Windows.Forms.TextBox();
             this.btn_done = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -81,13 +81,13 @@
             this.txt_trackSize.TabIndex = 5;
             this.txt_trackSize.Text = "Track Size";
             // 
-            // txt_sectorsinClister
+            // txt_sectorsinCluster
             // 
-            this.txt_sectorsinClister.Location = new System.Drawing.Point(171, 144);
-            this.txt_sectorsinClister.Name = "txt_sectorsinClister";
-            this.txt_sectorsinClister.Size = new System.Drawing.Size(100, 20);
-            this.txt_sectorsinClister.TabIndex = 6;
-            this.txt_sectorsinClister.Text = "Sectors in Cluster";
+            this.txt_sectorsinCluster.Location = new System.Drawing.Point(171, 144);
+            this.txt_sectorsinCluster.Name = "txt_sectorsinCluster";
+            this.txt_sectorsinCluster.Size = new System.Drawing.Size(100, 20);
+            this.txt_sectorsinCluster.TabIndex = 6;
+            this.txt_sectorsinCluster.Text = "Sectors in Cluster";
             // 
             // btn_done
             // 
@@ -105,7 +105,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.btn_done);
-            this.Controls.Add(this.txt_sectorsinClister);
+            this.Controls.Add(this.txt_sectorsinCluster);
             this.Controls.Add(this.txt_trackSize);
             this.Controls.Add(this.txt_blockingFactor);
             this.Controls.Add(this.txt_sectorSize);
@@ -125,7 +125,7 @@
         private System.Windows.Forms.TextBox txt_sectorSize;
         private System.Windows.Forms.TextBox txt_blockingFactor;
         private System.Windows.Forms.TextBox txt_trackSize;
-        private System.Windows.Forms.TextBox txt_sectorsinClister;
+        private System.Windows.Forms.TextBox txt_sectorsinCluster;
         private System.Windows.Forms.Button btn_done;
     }
 }
