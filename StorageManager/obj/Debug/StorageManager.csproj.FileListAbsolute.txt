@@ -1,0 +1,12 @@
+E:\Local Disk\VIisual\FILES_PROJ\StorageManager\bin\Debug\StorageManager.exe.config
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\bin\Debug\StorageManager.exe.config
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\bin\Debug\StorageManager.exe
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\bin\Debug\StorageManager.pdb
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.csprojResolveAssemblyReference.cache
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.form_start.resources
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.form_fileStructure.resources
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.form_setDrive.resources
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.Properties.Resources.resources
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.csproj.GenerateResource.Cache
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.exe
+C:\Users\Waleed Mokhtar\Desktop\FILES_PROJ\StorageManager\obj\Debug\StorageManager.pdb
